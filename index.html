@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Lover</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header id="home">
+    <div id="navbar">
+      <img src="./images/logo.png" alt="Food Lover Logo" />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fa fa-bars"></i></div>
+      </nav>
+    </div>
+
+    <div class="content">
+      <h1>Welcome To <span class="primary-text">Food Lover</span> Restaurant</h1>
+      <p>Here you can find the most delicious food in the world</p>
+      <a href="#contact" class="btn btn-primary">Book a Table</a>
+    </div>
+  </header>
+  
+  <main>
+
+    <section id="about">
+      <div class="container">
+        <div class="title">
+          <h2>The Food Lover History</h2>
+          <p>More than 25+ years of experience</p>
+        </div>
+        <div class="about-content">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+              quibusdam saepe natus numquam dolorum aliquam ducimus molestias
+              tenetur?
+            </p>
+            <p>
+              Quaerat, atque blanditiis. Debitis voluptatem sequi quibusdam nihil
+              eveniet obcaecati soluta rem.
+            </p>
+            <a href="#" class="btn btn-secondary">LEARN MORE</a>
+          </div>
+          <img src="./images/about_img.png" alt="Pizza" />
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="offers">
+      <div class="container">
+        <div class="title">
+          <h2>Our Special Offers</h2>
+          <p>More than 25+ years of experience</p>
+        </div>
+        <div class="offers-items">
+          <div>
+            <img src="./images/offer1.png" alt="Quattro Pasta" />
+            <div>
+              <h3>Quattro Pasta</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><del>$55.00</del> <span class="primary-text">$18.00</span></p>
+            </div>
+          </div>
+          <div>
+            <img src="./images/offer2.png" alt="Vegertarian Pasta" />
+            <div>
+              <h3>Vegertarian Pasta</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><del>$45.00</del> <span class="primary-text">$15.00</span></p>
+            </div>
+          </div>
+          <div>
+            <img src="./images/offer3.png" alt="Gluten-Free Pasta" />
+            <div>
+              <h3>Gluten-Free Pasta</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p><del>$50.00</del> <span class="primary-text">$20.00</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <h2>Our Food Gallery</h2>
+        <div class="img-gallery">
+          <img src="./images/gallery1.jpeg" alt="gallery1" />
+          <img src="./images/gallery2.jpeg" alt="gallery2" />
+          <img src="./images/gallery3.jpeg" alt="gallery3" />
+          <img src="./images/gallery4.jpeg" alt="gallery4" />
+          <img src="./images/gallery5.jpeg" alt="gallery5" />
+          <img src="./images/gallery6.jpeg" alt="gallery6" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <div>
+              <h3>ADDRESS</h3>
+              <p><i class="fa-solid fa-location-dot"></i> Mansoura, Egypt</p>
+              <p><i class="fa-solid fa-phone"></i> 123456789</p>
+              <p><i class="fa-regular fa-envelope"></i> support@foodlover.com</p>
+            </div>
+            <div>
+              <h3>WORKING HOURS</h3>
+              <p>8:00 am - 11:00 pm (Weekdays)</p>
+              <p>11:00 am - 1:00 am (Weekends)</p>
+            </div>
+            <div>
+              <h3>FOLLOW US</h3>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <form action="#" method="POST">
+            <input type="text" name="Name" placeholder="Full Name" required />
+            <input type="email" name="Email" placeholder="Email Address" required />
+            <input type="text" name="Subject" placeholder="Subject" />
+            <textarea name="Message" rows="5" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-third">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>
+      Copyright &copy; 2024 All rights reserved | Designed by
+      <b><a href="https://github.com/" target="_blank">Student Name</a></b>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
